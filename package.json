@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "readline": "1.3.0"
+  },
+  "name": "3dprint-resumer",
+  "description": "``` node index.js gcode-to-resume.gcode 20 ```",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruchiraw/3dprint-resumer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruchiraw/3dprint-resumer/issues"
+  },
+  "homepage": "https://github.com/ruchiraw/3dprint-resumer#readme"
+}
