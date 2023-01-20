@@ -23,10 +23,10 @@ M115 U3.2.3 ; tell printer latest fw version
 G90 ; use absolute coordinates
 M83 ; extruder relative mode
 M204 S2000 T1500 ; MK2 firmware only supports the old M204 format
-M104 S210 ; set extruder temp
-M140 S60 ; set bed temp
-M190 S60 ; wait for bed temp
-M109 S210 ; wait for extruder temp
+M104 S205 ; set extruder temp
+M140 S55 ; set bed temp
+M190 S55 ; wait for bed temp
+M109 S205 ; wait for extruder temp
 G28 W ; home all without mesh bed level
 
 G92 E0
